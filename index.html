@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Bootstrap Modal examples</title>
+
+</head>
+
+<body>
+    <br>
+    <h2 class="bg-info" style="text-align:center">Bootstrap Modal examples</h2><br><br>
+
+    <div class="container mt-3 mx-auto bg-light" style="width: 700px;">
+        <br>
+
+        <!-- modal 1 -->
+        <div class="row">
+            <div class="col-sm-6">
+                <h5>1. Modal with simple text</h5><br>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                Launch demo modal
+            </button>
+            <div class="col-sm-6">
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel1">Modal with simple text</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                This is an example of modal with simple text
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <!-- modal 2 -->
+        <div class="row">
+            <div class="col-sm-6">
+                <h5>2. Modal with alert</h5><br>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+                Launch demo modal
+            </button>
+            <div class="col-sm-6">
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal with alert</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body alert alert-info" role="alert">
+                                This is a info alert
+                                <a href="https://getbootstrap.com/docs/4.0/components/alerts/" class="alert-link">an
+                                    example link</a>
+                                . Give it a click if you like.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+        <!-- modal 3 -->
+        <div class="row">
+            <div class="col-sm-6">
+                <h5>3. Modal with long content</h5><br>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Modal with long content</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id
+                            magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur
+                            labore.
+                            Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non
+                            excepteur
+                            nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate
+                            non
+                            anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla
+                            enim
+                            veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit
+                            dolore.Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis
+                            aliqua
+                            id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur
+                            labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do
+                            non
+                            excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt
+                            voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore.
+                            Aliquip
+                            nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod
+                            cupidatat elit dolore.Ex consequat commodo adipisicing exercitation aute excepteur occaecat
+                            ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut
+                            et
+                            aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident.
+                            Qui
+                            laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis
+                            et
+                            incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit
+                            dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit
+                            ut
+                            eiusmod cupidatat elit dolore.Ex consequat commodo adipisicing exercitation aute excepteur
+                            occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum
+                            consectetur
+                            ut et aute consectetur labore. Fugiat laborum
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <!-- modal 4 -->
+        <div class="row">
+            <div class="col-sm-6">
+                <h5>4. Modal with form</h5><br>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                Launch demo modal
+            </button>
+            <div class="col-sm-6">
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal with form</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email
+                                            with
+                                            anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Password">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <!-- modal 5 -->
+        <div class="row">
+            <div class="col-sm-6">
+                <h5>5. Modal with card</h5><br>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
+                Launch demo modal
+            </button>
+            <div class="col-sm-6">
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal with card</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body mx-auto">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card inside Modal</h5>
+
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+
+</html>
